@@ -53,6 +53,9 @@ Blue:          #158CBE;
     
     
     /* Typography styles*/
+    h1 { margin-left: 8rem;
+        line-height: 0.7; }
+
     h2 {
         font-size: 2.5rem;
         line-height: 1.1;
@@ -115,14 +118,9 @@ Blue:          #158CBE;
         background-size: cover;
     }
     
-    header h3 {
-        font-size: 3.5rem;
-        line-height: 1;
-    }
+    header h3 { font-size: 3.5rem; }
     
-    footer a {
-        border: none;
-    }
+    footer a  { border: none;      }
     
     
     /* Background images */
@@ -156,4 +154,6 @@ Blue:          #158CBE;
     margin-bottom: 2rem;
     font-size: 3rem;
     }
+
+  
 
