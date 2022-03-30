@@ -1,8 +1,10 @@
 
 /* 
 Colors:
-Lightblue:     #4ebdec; 
-Blue:          #158CBE;
+Lightblue:       #599BCD;
+Blue:            #006396; (background)
+Blue:            #0870B6; (text)
+Body background: #F8F8FA;
 
 */
 
@@ -31,7 +33,7 @@ Blue:          #158CBE;
     /*  Universal styles & utility classes */
     body { 
         font-family: 'Catamaran', sans-serif;
-        color: #158CBE;
+        color:  #0870B6;
         background-color: #F8F8FA;
     }
     
@@ -41,7 +43,7 @@ Blue:          #158CBE;
     .padded-lg { padding: 10%   }
     
     .bg-blue   { 
-        background-color: #158CBE;
+        background-color: #006396;
         color: white;
     }
 
@@ -82,10 +84,10 @@ Blue:          #158CBE;
     }
     
     a:hover {
-        color: #4ebdec;
+        color: #599BCD;
     }
     
-    .featured-text          { color: #4ebdec;    }
+    .featured-text          { color: #599BCD;    }
     .white-text             { color: white;      }
     
     .small-text             { font-size: 1.5rem;   }
@@ -95,12 +97,7 @@ Blue:          #158CBE;
     }
     .big-text               { font-size: 4.5rem;   }
     
-    .quote-icon { 
-        font-size: 6rem;
-        display: inline-block;
-        color: #4ebdec;
-        line-height: 1;
-    }
+    
     
     .font-weight-light      { font-weight: 200;    }
     .font-weight-normal     { font-weight: normal; }
