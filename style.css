@@ -22,13 +22,6 @@ Body background: #F8F8FA;
     } */
     
     
-    /*  Image styles */
-    .bg-image {
-        background-image: url("/images/sleep-co-1.jpg");
-        background-size: cover;
-        min-height: 10rem;
-    }
-    
     
     /*  Universal styles & utility classes */
     body { 
@@ -51,7 +44,7 @@ Body background: #F8F8FA;
     .tall-5     { min-height: 50vh; }
     .tall-60    { min-height: 60vh; }
     .tall-70    { min-height: 70vh; }
-    .tall-8     { min-height: 80vh; }
+    .tall-80    { min-height: 80vh; }
     .tall-90    { min-height: 90vh; }
     .tall-100   { min-height: 100vh }
     
@@ -122,10 +115,15 @@ Body background: #F8F8FA;
     footer a  { border: none;      }
     
     
-    /* Background images */
+     /*  Image styles */
+     .bg-image {
+        background-image: url("/images/sleep-co-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .bg-penguin-stone { 
         background-image: url("/images/penguin-2.jpg");
-        background-position: 50% 35%; 
+        background-position: center;
     }
     
     .bg-penguin-baby   { 
