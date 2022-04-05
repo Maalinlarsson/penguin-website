@@ -8,7 +8,7 @@ Body background: #F8F8FA;
 
 */
 
-
+/*--------- Universal reset styles ---------*/
 * {
     padding: 0;
     margin: 0;
@@ -30,7 +30,7 @@ Body background: #F8F8FA;
         background-color: #F8F8FA;
     }
     
-    
+    /*---------  Utility classes ---------*/
     .padded    { padding: 5%;   }
     .padded-sm { padding: 1rem; }
     .padded-md { padding: 3rem; }
@@ -49,7 +49,7 @@ Body background: #F8F8FA;
     .tall-100   { min-height: 100vh }
     
     
-    /* Typography styles */
+    /*--------- Typography styles---------*/
     h1 { margin-left: 8rem;
         line-height: 0.7; }
 
@@ -82,7 +82,7 @@ Body background: #F8F8FA;
     }
     
 
-    /* Typography utility classes */
+   /*--------- Typography utility classes ---------*/
     .featured-text          { color: #599BCD;    }
     .white-text             { color: white;      }
     
@@ -94,7 +94,7 @@ Body background: #F8F8FA;
     .big-text               { font-size: 4.5rem;   }
     
     
-    
+
     .font-weight-light      { font-weight: 200;    }
     .font-weight-normal     { font-weight: normal; }
     .font-weight-extra-bold { font-weight: 800;    }
@@ -105,7 +105,7 @@ Body background: #F8F8FA;
     
     
     
-    /* Header & footer styles */
+    /*--------- Header and footer styles ---------*/
     header {
         background-image: url("/images/penguin-1.jpg");
         background-position: 50% 70%;
@@ -117,7 +117,7 @@ Body background: #F8F8FA;
     footer a  { border: none;      }
     
     
-     /*  Image styles */
+     /*--------- Images ---------*/
      .bg-image {
         background-image: url("/images/sleep-co-1.jpg");
         background-size: cover;
@@ -146,7 +146,7 @@ Body background: #F8F8FA;
     .bg-oval         {  border-radius: 20rem;      }
     .bg-square       {  border-radius: 4rem 80rem; }
     
-    /* Icon grid */
+    /*--------- Icon grid ---------*/
     .fa-solid {
     display: block;
     text-align: center;
@@ -155,7 +155,7 @@ Body background: #F8F8FA;
     }
 
 
-  /* Responsive media embeds */
+  /*--------- Responsive media embeds ---------*/
   .embed-container { 
       position: relative; 
       padding-bottom: 56.25%; 
