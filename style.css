@@ -21,7 +21,9 @@ Body background: #F8F8FA;
         border: 2px solid rgb(220, 220, 220);
     } */
     
-    
+    [class*="col_"] {
+        padding: 0;
+      }
     
     /*  Universal styles & utility classes */
     body { 
