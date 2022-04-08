@@ -74,13 +74,15 @@ Body background: #F8F8FA;
     }
     
     a {
-        color: inherit;
+        color: white;
         text-decoration: none;
-        border-bottom: 1px solid;
+        text-decoration: none;
+         display: inline-block;
+        padding: 0.5rem;
     }
     
     a:hover {
-        color: #599BCD;
+       color:  #599BCD;
     }
     
 
@@ -105,9 +107,21 @@ Body background: #F8F8FA;
     .text-center            { text-align: center;  }
     .text-right             { text-align: right;   }
     
-    
-    
-    /*--------- Header and footer styles ---------*/
+
+    /*--------- The real header styles ---------*/
+    /* But right now it is a section - don't want to mess up the code */
+  section nav-header {
+    text-align: center;
+  }
+  
+  .logo h2 {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+
+  
+  
+    /*--------- "Header" and footer styles ---------*/
     header {
         background-image: url("/images/penguin-1.jpg");
         background-position: 50% 70%;
@@ -116,9 +130,15 @@ Body background: #F8F8FA;
     
     header h3 { font-size: 3.5rem; }
     
-    footer a  { border: none;      }
+    footer a  { 
+        color: white;  
+    }
     
-    
+    footer a:hover {
+        color: #599BCD;  
+    }
+
+
      /*--------- Images ---------*/
      .bg-image {
         background-image: url("/images/sleep-co-1.jpg");
