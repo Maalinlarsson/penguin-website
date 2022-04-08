@@ -97,7 +97,6 @@ Body background: #F8F8FA;
     }
     .big-text               { font-size: 4.5rem;   }
     
-    
 
     .font-weight-light      { font-weight: 200;    }
     .font-weight-normal     { font-weight: normal; }
@@ -119,8 +118,6 @@ Body background: #F8F8FA;
     font-weight: normal;
   }
 
-  
-  
     /*--------- "Header" and footer styles ---------*/
     header {
         background-image: url("/images/penguin-1.jpg");
@@ -129,6 +126,7 @@ Body background: #F8F8FA;
     }
     
     header h3 { font-size: 3.5rem; }
+    
     
     footer a  { 
         color: white;  
