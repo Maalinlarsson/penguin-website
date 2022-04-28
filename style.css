@@ -43,6 +43,8 @@ Body background: #F8F8FA;
         color: white;
     }
 
+    .margin-b { margin-bottom: 1rem; }
+
     .tall-5     { min-height: 50vh; }
     .tall-60    { min-height: 60vh; }
     .tall-70    { min-height: 70vh; }
